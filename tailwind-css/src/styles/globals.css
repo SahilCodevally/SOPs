@@ -109,3 +109,7 @@ a {
     color-scheme: dark;
   }
 }
+
+/* .description p {
+  @apply bg-callout-rgb/50 border-callout-broder-rgb/30 relative m-0 rounded-[30px] border border-solid p-4;
+} */

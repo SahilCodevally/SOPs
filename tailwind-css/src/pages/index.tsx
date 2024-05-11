@@ -15,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.description}>
-          <p className="text-red-950">
+        <div className={`description ${styles.description}`}>
+          <p className="bg-callout-rgb/50 border-callout-broder-rgb/30 relative m-0 rounded-[30px] border border-solid p-4">
             Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.tsx</code>
           </p>
